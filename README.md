@@ -112,6 +112,7 @@ Vlan    Configuration    Operation
 Vlan    Forwarded    Dropped    DHCP Drops    ACL Drops
 ----    ---------    -------    ----------    ---------
 1       0            0          0             0
+
 <img width="331" height="127" alt="Screenshot 2026-05-12 at 9 22 13 PM" src="https://github.com/user-attachments/assets/de3d8193-e9d1-4157-b26d-7c9fa0d3e2f9" />
 
 DAI is active on VLAN 1. All ARP packets from untrusted ports are validated — fake ARP replies like those used in spoofing attacks are automatically dropped.

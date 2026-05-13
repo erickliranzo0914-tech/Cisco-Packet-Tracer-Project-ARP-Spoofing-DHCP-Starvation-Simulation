@@ -5,7 +5,7 @@ Topic: Network Attack Simulation & Defense
 Difficulty: Intermediate
 
  Overview
-This lab demonstrates two common Layer 2 network attacks — DHCP Starvation and ARP Spoofing — using Cisco Packet Tracer. After simulating both attacks, I applied industry-standard defenses (DHCP Snooping and Dynamic ARP Inspection) to harden the network against them.
+This lab demonstrates two common Layer 2 network attacks  DHCP Starvation and ARP Spoofing using Cisco Packet Tracer. After simulating both attacks, I applied industry standard defenses (DHCP Snooping and Dynamic ARP Inspection) to harden the network against them.
 
 🖧 Network Topology
 PC0  ──Fa0/1──┐
@@ -120,10 +120,10 @@ DAI is active on VLAN 1. All ARP packets from untrusted ports are validated — 
 Key Takeaways
 
 ARP has no built-in authentication — any device can poison another's ARP cache without any credentials
-DHCP pools are finite — without rate limiting, a single attacker can exhaust all available IPs in seconds
+DHCP pools are finite  without rate limiting, a single attacker can exhaust all available IPs in seconds
 Layer 2 attacks are often overlooked — most firewall rules operate at Layer 3+, leaving switches as a critical but underprotected attack surface
 DHCP Snooping and DAI work together — DAI depends on the snooping binding table, so both must be enabled for full protection
-Trusted ports must be configured carefully — only uplinks to routers/servers should be trusted; all end-user ports should be untrusted
+Trusted ports must be configured carefully — only uplinks to routers/servers should be trusted; all end user ports should be untrusted
 
 
  Defensive Recommendations

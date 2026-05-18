@@ -2,7 +2,6 @@
 Cisco Packet Tracer Lab: ARP Spoofing & DHCP Starvation Simulation
 Tool: Cisco Packet Tracer
 Topic: Network Attack Simulation & Defense
-Difficulty: Intermediate
 
  Overview
 This lab demonstrates two common Layer 2 network attacks  DHCP Starvation and ARP Spoofing using Cisco Packet Tracer. After simulating both attacks, I applied industry standard defenses (DHCP Snooping and Dynamic ARP Inspection) to harden the network against them.
